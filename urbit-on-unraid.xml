@@ -16,7 +16,7 @@
   <Registry>https://hub.docker.com/r/tloncorp/urbit</Registry>
   <GitHub>https://github.com/urbit/urbit</GitHub>
   <Repository>tipdec-siblyn/urbit</Repository>
-  <Support>https://forums.unraid.net/topic/38974-support-limetechs-docker-repository/</Support>
+  <Support></Support>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment/>
