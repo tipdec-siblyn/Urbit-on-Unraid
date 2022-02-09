@@ -9,7 +9,7 @@
    Urbit is a clean-slate OS and network for the 21st century. Self-host your computer, identity and access to the urbit world. 
   </Overview>
   <Description>
-    Urbit is a personal server for self-sovereign personal & networked computing. Nock, a functional combinator, is built into Hoon, a system programming language, used to implement Arvo, a deterministic operating system, that communicates over Ames, a decentralized, encrypted P2P network. You can boot with docker your planet and access to the urbit network and apps.[br][br]
+    Urbit is a personal server for self-sovereign personal and networked computing. Nock, a functional combinator, is built into Hoon, a system programming language, used to implement Arvo, a deterministic operating system, that communicates over Ames, a decentralized, encrypted P2P network. You can boot with docker your planet and access to the urbit network and apps.[br][br]
     [b][span style='color: #E80000;']Guide:[/span][/b][br]
     [b]/config[/b] : Boot your comet for a first free try or boot a planet with the key from the bridge.
   </Description>
