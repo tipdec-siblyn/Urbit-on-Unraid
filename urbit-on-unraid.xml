@@ -11,7 +11,7 @@
   <Description>
     Urbit is a personal server for self-sovereign personal and networked computing. Nock, a functional combinator, is built into Hoon, a system programming language, used to implement Arvo, a deterministic operating system, that communicates over Ames, a decentralized, encrypted P2P network. You can boot with docker your planet and access to the urbit network and apps.[br][br]
     [b][span style='color: #E80000;']Guide:[/span][/b][br]
-    [b]/config[/b] : Boot your comet for a first free try or boot a planet with the key from the bridge.
+    [b]/config[/b] : Boot your comet for a first free try or boot a planet with the key from the bridge. For getting the code to the landscape enter in the unraid terminal "docker container exec Urbit /bin/get-urbit-code"
   </Description>
   <Registry>https://hub.docker.com/r/tloncorp/urbit</Registry>
   <GitHub>https://github.com/urbit/urbit</GitHub>
