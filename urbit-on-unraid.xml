@@ -47,12 +47,12 @@
 
   <Network Default="bridge">bridge</Network>
 
-  <Config Type="Port" Name="Web Interface Port" Target="8080" Default="8080" Mode="tcp" Display="always-hide" Required="true"
-       Description="Port 80 is used for Urbit's HTTP interface for both Landscape and for API calls to the ship.">8080</Config>
+  <Config Type="Port" Name="Web Interface Port" Target="8088" Default="8088" Mode="tcp" Display="always-hide" Required="true"
+       Description="Port 80 is used for Urbit's HTTP interface for both Landscape and for API calls to the ship.">80</Config>
 
   <Config Type="Port" Name="UDP Ames Port" Target="34343" Default="34343" Mode="udp" Display="advanced-hide" Required="true"
        Description="Port 34343 is set by default to be used by Ames for ship-to-ship communication.">34343</Config>
 
-  <Config Type="Path" Name="Urbit Config Path" Target="/urbit" Default="/mnt/user/appdata/urbit" Mode="rw" Display="advanced-hide" Required="true"
-       Description="This is where Urbit will access the key or the data pier of an existing planet. A key file sampel-palnet.key will boot sampel-palnet planet. For a comet create a file in .comet">/mnt/user/appdata/urbit</Config>
+  <Config Type="Path" Name="Urbit Config Path" Target="/urbit" Default="/mnt/user/appdata/urbit" Mode="rw" Display="always-hide" Required="true"
+       Description="This is where Urbit will access the key or the data pier of an existing planet. A key file "sampel-palnet.key" will boot the "sampel-palnet" planet. For booting a comet create a file in .comet.">/mnt/user/appdata/urbit</Config>
 </Container>
