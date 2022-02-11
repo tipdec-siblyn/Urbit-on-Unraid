@@ -54,5 +54,5 @@
        Description="Port 34343 is set by default to be used by Ames for ship-to-ship communication.">34343</Config>
 
   <Config Type="Path" Name="Urbit Config Path" Target="/urbit" Default="/mnt/user/appdata/urbit" Mode="rw" Display="always-hide" Required="true"
-       Description="This is where Urbit will access the key or the data pier of an existing planet. A key file "sampel-palnet.key" will boot the "sampel-palnet" planet. For booting a comet create a file in .comet.">/mnt/user/appdata/urbit</Config>
+       Description="This is where Urbit will access the key or the data pier of an existing planet. A key file sampel-palnet.key will boot the sampel-palnet planet. For booting a comet create a file in .comet.">/mnt/user/appdata/urbit</Config>
 </Container>
