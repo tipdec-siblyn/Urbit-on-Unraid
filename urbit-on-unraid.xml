@@ -43,7 +43,7 @@
     </Volume>
   </Data>
   <WebUI>http://[IP]:[PORT:80]/</WebUI>
-  <Icon>https://raw.githubusercontent.com/tipdec-siblyn/Urbit-on-Unraid/main/urbit.png</Icon>
+  <Icon>https://raw.githubusercontent.com/tipdec-siblyn/unraid-template/main/urbit.png</Icon>
 
   <Network Default="bridge">bridge</Network>
 
