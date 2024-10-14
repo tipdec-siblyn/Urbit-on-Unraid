@@ -47,8 +47,8 @@
 
   <Network Default="bridge">bridge</Network>
 
-  <Config Type="Port" Name="Web Interface Port" Target="8088" Default="8088" Mode="tcp" Display="always-hide" Required="true"
-       Description="Port 80 is used for Urbit's HTTP interface for both Landscape and for API calls to the ship.">80</Config>
+  <Config Type="Port" Name="Web Interface Port" Target="80" Default="8088" Mode="tcp" Display="always-hide" Required="true"
+       Description="Port 80 is used for Urbit's HTTP interface for both Landscape and for API calls to the ship.">8088</Config>
 
   <Config Type="Port" Name="UDP Ames Port" Target="34343" Default="34343" Mode="udp" Display="advanced-hide" Required="true"
        Description="Port 34343 is set by default to be used by Ames for ship-to-ship communication.">34343</Config>
